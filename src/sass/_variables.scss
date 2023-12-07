@@ -1,17 +1,23 @@
 
+// import modules of bootstrap functions and variables in scss
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
 
 // example to put something in a variable
-$myColor: red;
+$orange: rgba(205,164,93,255);
 
 
 // example to put image in a variable
-$top_header : "../../src/images/galaxy.jpg";
+
+$header_bck : "../../src/images/hero-bg.jpg";
+$first_bck : "../../src/images/about-bg.jpg";
+
 
 
 
 //example to put color in bootstrap in a list
-$name-variable : (
-    "orange" : rgba(189,93,56,255),
+$couleur-perso : (
+    "orange" : rgba(205,164,93,255),
     "rose"   : #df46c8,
     "bleuClaire"  : #32a2b8,
     "purple"  : #6936ba,
@@ -30,10 +36,10 @@ $name-variable : (
 // merge so put my list of colors in bootstrap to use
 //  it with bootstrap
 
-$theme-colors:  map-merge($theme-colors , $name-variable);
+$theme-colors:  map-merge($theme-colors , $couleur-perso );
 
 
-// import modules of bootstrap functions and variables in scss
-@import "../../node_modules/bootstrap/scss/functions";
-@import "../../node_modules/bootstrap/scss/variables";
+
+$font_f :  Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif
+
 
