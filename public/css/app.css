@@ -14,5 +14,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a    \2577 \a 33 \2502  $theme-colors:  map-merge($theme-colors , $name-variable);\a    \2502                            ^^^^^^^^^^^^^\a    \2575 \a   src\\sass\\_variables.scss 33:27  @import\a   src\\sass\\app.sass 1:9           root stylesheet";
+  content: "Error: Undefined variable.\a    \2577 \a 33 \2502  $theme-colors:  map-merge($theme-colors , $name-variable);\d\a    \2502                            ^^^^^^^^^^^^^\a    \2575 \a   src\\sass\\_variables.scss 33:27  @import\a   src\\sass\\app.sass 1:9           root stylesheet";
 }
