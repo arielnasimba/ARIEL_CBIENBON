@@ -9,12 +9,8 @@ body {
 header {
   background-image: url("../../src/images/hero-bg.jpg");
   background-size: cover;
-  background-position: 40% 70%;
+  background-position: 10% 20%;
   background-repeat: no-repeat;
-  display: flex;
-  justify-content: end;
-  flex-direction: column;
-  overflow: hidden;
 }
 header nav {
   display: flex;
@@ -22,19 +18,27 @@ header nav {
 }
 header nav #navbar {
   font-size: 80%;
-  width: 95%;
+  width: 93%;
 }
 header nav #navbar button {
   font-size: 70%;
   padding-left: 2%;
   padding-right: 2%;
 }
+header nav #navbar #inside #navbarSupportedContent {
+  display: flex;
+  align-items: end;
+}
+header nav #navbar #inside #navbarSupportedContent ul {
+  display: flex;
+  align-self: end;
+}
 header .texte {
   display: flex;
-  align-self: center;
-  margin-top: 20%;
-  margin-bottom: 20%;
-  width: 95%;
+  align-self: flex-end;
+  margin-top: 32%;
+  margin-bottom: 32%;
+  width: 93%;
 }
 header .texte .left {
   width: 50%;
@@ -53,6 +57,10 @@ main {
   width: 100%;
   padding: 0;
   margin: 0;
+}
+
+footer {
+  background-color: rgb(11, 11, 9);
 }
 
 /*!
