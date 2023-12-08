@@ -1,2 +1,48 @@
 footer
     background-color: $footer_col
+    display: flex
+    flex-direction: column
+    .box
+        width: 100%
+        // background-color: brown
+        display: flex
+        justify-content: center
+        .top
+            width: 93%
+            .left
+                width: 40%
+                display: flex
+                flex-direction: column
+
+                ul
+                    li
+                        i
+                            background-color: red
+                            // border-radius: 50%
+                            // width: 25%
+
+            .right
+                width: 60%
+                form
+                    .form-row
+                        .form-group
+                            // background-color: red
+                            &:first-of-type
+                                // background-color: blue
+                                border: $orange
+                            input
+                                background-color: red
+            
+        &:nth-of-type(2)
+            width: 100%
+            background-color: aqua
+            display: flex
+            justify-content: center
+
+            .bot
+                width: 93%
+
+        &:last-of-type
+            width: 100%
+            background-color: aquamarine
+        
