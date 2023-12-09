@@ -160,6 +160,36 @@ section.pict .box .right .box .right_bot .box2 {
 }
 section.why {
   background-color: rgb(11, 11, 9);
+  display: flex;
+  flex-direction: column;
+}
+section.why .box {
+  width: 93%;
+  align-self: center;
+}
+section.why .box .top .top2 .inside {
+  width: 61%;
+}
+section.why .box .top .top2 .inside p {
+  font-size: 70%;
+  color: rgb(168, 168, 167);
+}
+section.why .box .bot2 h5, section.why .box .bot2 .h5 {
+  font-size: 180%;
+  font-family: Times, Times New Roman, serif;
+}
+section.why .box .bot .row .col .card {
+  border-radius: 0;
+  background-color: rgb(26, 24, 20);
+}
+section.why .box .bot .row .col .card .card-body h5:last-of-type, section.why .box .bot .row .col .card .card-body .h5:last-of-type {
+  color: rgb(168, 168, 167);
+  font-family: Times, Times New Roman, serif;
+  font-size: 120%;
+}
+section.why .box .bot .row .col .card .card-body p {
+  color: rgb(168, 168, 167);
+  font-size: 74%;
 }
 
 footer {
