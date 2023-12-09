@@ -1,4 +1,97 @@
 section
-    &.first
-        // background-image: url($first_bck)
-        // position: relative
+
+    &.pict
+        background: url($first_section)
+        background-size: 100% 150%
+        background-position: 50% 20%
+        background-repeat: no-repeat
+        width: 100%
+        display: flex
+        justify-content: center
+        .box
+            // background: aqua
+            width: 93%
+            margin-top: 6%
+            margin-bottom: 6%
+            .left
+                // background: aquamarine
+                width: 50%
+                .text
+                    // background: aqua
+                    width: 97%
+                    h4
+                        font-family: Times, Times New Roman, serif
+                    h6
+                        font-size: 70%
+                    p
+                        // background: red
+                        // display: flex
+                        align-items: center
+                        // vertical-align: auto
+                        font-size: 75%
+                        font-weight: normal
+                        // line-height: 0%
+                        // margin: 0
+                        margin-bottom: 2%
+                        &:first-of-type
+                            margin-top: 3%
+                        &:last-of-type
+                            // background: red
+                            margin-top: 4%
+
+                        
+
+            .right
+                width: 50%
+                .box
+                    background-image: url($second_section)
+                    background-size: 100% 100%
+                    // background-position: 98% 0%
+                    background-repeat: no-repeat
+                    // background-position: 48% 0%  
+                    width: 100%
+                    // background-size: cover
+                    display: flex
+                    flex-direction: column  
+                    // background: aqua
+                    .left_top
+                        // background: red
+                        height: 40%
+                        margin-left: 2%
+                        margin-top: 2%
+                        width: 8.5%
+                        border-right: none !important
+                        border-bottom: none !important
+                        .box2
+                            height: 33%
+                            // background: aqua
+                            border-right: none !important
+                            border-bottom: none !important
+                        
+
+                    .right_bot
+                        // background: aqua
+                        height: 55%
+
+                        width: 8%
+                        display: flex
+                        align-self: flex-end
+                        vertical-align: baseline
+                        margin-right: 2%
+                        margin-bottom: 2%
+                        // background: red
+                        .box2
+                            height: 23%
+                            width: 100%
+                            display: flex
+                            align-self: flex-end
+                            // justify-self: self-end
+                            // background: aqua
+                            border-left: none !important
+                            border-top: none !important
+
+
+
+    &.why
+
+        background-color: rgba(11,11,9,255)
