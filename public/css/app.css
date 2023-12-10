@@ -191,6 +191,73 @@ section.why .box .bot .row .col .card .card-body p {
   color: rgb(168, 168, 167);
   font-size: 74%;
 }
+section.events {
+  background: url("../../src/images/events-bg.jpg");
+  background-size: 100% 150%;
+  background-position: 50% 20%;
+  background-repeat: no-repeat;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+section.events .texte {
+  width: 93%;
+  align-self: center;
+}
+section.events .texte .top .top2 .inside {
+  width: 61%;
+}
+section.events .texte .top .top2 .inside p {
+  font-size: 70%;
+  color: rgb(168, 168, 167);
+}
+section.events .texte .top .bot2 {
+  font-family: Times, Times New Roman, serif;
+}
+section.events .texte .top .bot2 h5, section.events .texte .top .bot2 .h5 {
+  font-size: 180%;
+}
+section.events .carous {
+  width: 93%;
+  align-self: center;
+  display: flex;
+}
+section.events .carous .box {
+  display: flex;
+  flex-direction: row;
+}
+section.events .carous .box .left {
+  width: 50%;
+}
+section.events .carous .box .left .box {
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+section.events .carous .box .right {
+  width: 50%;
+}
+section.events .carous .box .right .text {
+  margin-left: 3%;
+}
+section.events .carous .box .right .text h4, section.events .carous .box .right .text .h4 {
+  font-size: 125%;
+  border-bottom: 1px solid rgb(205, 164, 93);
+  display: inline-block;
+  padding-bottom: 2px;
+}
+section.events .carous .box .right .text h5, section.events .carous .box .right .text .h5 {
+  font-family: Times, Times New Roman, serif;
+  font-size: 120%;
+}
+section.events .carous .box .right .text h6, section.events .carous .box .right .text .h6 {
+  font-size: 70%;
+}
+section.events .carous .box .right .text p {
+  align-items: center;
+  font-size: 75%;
+  font-weight: normal;
+}
 
 footer {
   background-color: rgb(11, 11, 9);
