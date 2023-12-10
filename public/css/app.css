@@ -381,11 +381,14 @@ footer .box .top .left ul li i {
 footer .box .top .right {
   width: 60%;
 }
-footer .box .top .right form .form-row .form-group:first-of-type {
-  border: rgb(205, 164, 93);
+footer .box .top .right form .form-row .form-group .form-control {
+  border-radius: 0;
 }
-footer .box .top .right form .form-row .form-group input {
-  background-color: red;
+footer .box .top .right form:last-of-type textarea {
+  border-radius: 0;
+}
+footer .box .top .right form .but button {
+  font-size: 80%;
 }
 footer .box:nth-of-type(2) {
   width: 100%;
