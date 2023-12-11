@@ -71,6 +71,16 @@ header .texte .right .box2 button {
   background: none;
 }
 
+@media (min-width: 426px) and (min-width: 725px) {
+  header {
+    background-size: 110%;
+  }
+  header nav #navbar #inside .collapse ul {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+  }
+}
 main {
   width: 100%;
   padding: 0;
@@ -190,6 +200,98 @@ section.why .box .bot .row .col .card .card-body h5:last-of-type, section.why .b
 section.why .box .bot .row .col .card .card-body p {
   color: rgb(168, 168, 167);
   font-size: 74%;
+}
+section.menu {
+  background-color: rgb(26, 24, 20);
+  display: flex;
+  flex-direction: column;
+}
+section.menu .box {
+  width: 93%;
+  align-self: center;
+}
+section.menu .box .top .top2 .inside {
+  width: 61%;
+}
+section.menu .box .top .top2 .inside p {
+  font-size: 70%;
+  color: rgb(168, 168, 167);
+}
+section.menu .box .bot2 h5, section.menu .box .bot2 .h5 {
+  font-size: 180%;
+  font-family: Times, Times New Roman, serif;
+}
+section.menu .box .bot {
+  position: relative;
+}
+section.menu .box .bot #carouselExampleIndicators .carousel-indicators {
+  position: absolute;
+  top: -14%;
+  left: 23%;
+  height: 10%;
+  opacity: 1;
+  gap: 7%;
+  width: 22%;
+}
+section.menu .box .bot #carouselExampleIndicators .carousel-indicators button {
+  opacity: 0;
+}
+section.menu .box .bot #carouselExampleIndicators .carousel-inner .carousel-item .list_menu {
+  display: flex;
+}
+section.menu .box .bot #carouselExampleIndicators .carousel-inner .carousel-item .list_menu .left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+section.menu .box .bot #carouselExampleIndicators .carousel-inner .carousel-item .list_menu .left .menus img {
+  width: 8% !important;
+  border-radius: 50%;
+}
+section.menu .box .bot #carouselExampleIndicators .carousel-inner .carousel-item .list_menu .left .menus .text {
+  margin-left: 2%;
+}
+section.menu .box .bot #carouselExampleIndicators .carousel-inner .carousel-item .list_menu .left .menus .text p {
+  font-size: 70%;
+}
+section.menu .box .bot #carouselExampleIndicators .carousel-inner .carousel-item .list_menu .left .menus .text p span {
+  color: rgb(141, 140, 138);
+  font-size: 60%;
+}
+section.menu .box .bot #carouselExampleIndicators .carousel-inner .carousel-item .list_menu .left .menus .text p span:last-of-type {
+  font-size: 80%;
+}
+section.menu .box .bot #carouselExampleIndicators .carousel-inner .carousel-item .list_menu .left .menus .text p:last-of-type {
+  font-size: 60%;
+  color: rgb(141, 140, 138);
+}
+section.menu .box .bot #carouselExampleIndicators .carousel-inner .carousel-item .list_menu .right {
+  width: 50%;
+}
+section.menu .box .bot #carouselExampleIndicators .carousel-inner .carousel-item .list_menu .right .menus img {
+  width: 8% !important;
+  border-radius: 50%;
+}
+section.menu .box .bot #carouselExampleIndicators .carousel-inner .carousel-item .list_menu .right .menus .text {
+  margin-left: 2%;
+}
+section.menu .box .bot #carouselExampleIndicators .carousel-inner .carousel-item .list_menu .right .menus .text p {
+  font-size: 70%;
+}
+section.menu .box .bot #carouselExampleIndicators .carousel-inner .carousel-item .list_menu .right .menus .text p span {
+  color: rgb(141, 140, 138);
+  font-size: 60%;
+}
+section.menu .box .bot #carouselExampleIndicators .carousel-inner .carousel-item .list_menu .right .menus .text p span:last-of-type {
+  font-size: 80%;
+}
+section.menu .box .bot #carouselExampleIndicators .carousel-inner .carousel-item .list_menu .right .menus .text p:last-of-type {
+  font-size: 60%;
+  color: rgb(141, 140, 138);
+}
+section.menu .box .bot3 ul li a {
+  font-size: 70%;
+  font-family: Times, Times New Roman, serif;
 }
 section.events {
   background: url("../../src/images/events-bg.jpg");
