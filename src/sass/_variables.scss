@@ -42,7 +42,7 @@ $couleur-perso : (
 );
 
 // merge so put my list of colors in bootstrap to use
-//  it with bootstrapczc
+//  it with bootstrap
 
 $theme-colors:  map-merge($theme-colors , $couleur-perso );
 
