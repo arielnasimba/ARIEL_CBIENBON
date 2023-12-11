@@ -379,8 +379,68 @@ footer .box .top .left {
   display: flex;
   flex-direction: column;
 }
-footer .box .top .left ul li i {
-  background-color: red;
+footer .box .top .left ul li h4, footer .box .top .left ul li .h4 {
+  display: inline-block;
+  font-size: 85%;
+  line-height: 0;
+}
+footer .box .top .left ul li h4 p, footer .box .top .left ul li .h4 p {
+  width: 100%;
+  font-size: 70%;
+  margin-left: 18.5%;
+  line-height: 0;
+}
+footer .box .top .left ul li h4 img, footer .box .top .left ul li .h4 img {
+  margin-top: 10%;
+  margin-right: 2%;
+}
+footer .box .top .left ul li:nth-of-type(2) h4, footer .box .top .left ul li:nth-of-type(2) .h4 {
+  display: inline-block;
+  font-size: 85%;
+  line-height: 40%;
+  width: 40%;
+}
+footer .box .top .left ul li:nth-of-type(2) h4 p, footer .box .top .left ul li:nth-of-type(2) .h4 p {
+  width: 100%;
+  font-size: 70%;
+  margin-left: 26.5%;
+  line-height: 140%;
+}
+footer .box .top .left ul li:nth-of-type(2) h4 img, footer .box .top .left ul li:nth-of-type(2) .h4 img {
+  margin-top: 10%;
+  margin-right: 6%;
+}
+footer .box .top .left ul li:nth-of-type(3) h4, footer .box .top .left ul li:nth-of-type(3) .h4 {
+  display: inline-block;
+  font-size: 85%;
+  line-height: 40%;
+}
+footer .box .top .left ul li:nth-of-type(3) h4 a, footer .box .top .left ul li:nth-of-type(3) .h4 a {
+  width: 100%;
+  font-size: 70%;
+  margin-left: 42.5%;
+  line-height: 100%;
+  text-decoration: none;
+}
+footer .box .top .left ul li:nth-of-type(3) h4 img, footer .box .top .left ul li:nth-of-type(3) .h4 img {
+  margin-top: 10%;
+  margin-right: 8%;
+}
+footer .box .top .left ul li:last-of-type h4, footer .box .top .left ul li:last-of-type .h4 {
+  display: inline-block;
+  font-size: 85%;
+  line-height: 40%;
+}
+footer .box .top .left ul li:last-of-type h4 p, footer .box .top .left ul li:last-of-type .h4 p {
+  width: 100%;
+  font-size: 70%;
+  margin-left: 44.5%;
+  line-height: 100%;
+  text-decoration: none;
+}
+footer .box .top .left ul li:last-of-type h4 img, footer .box .top .left ul li:last-of-type .h4 img {
+  margin-top: 10%;
+  margin-right: 8%;
 }
 footer .box .top .right {
   width: 60%;
@@ -489,6 +549,7 @@ footer .box:last-of-type .copyright p {
   --bs-green_page: rgb(91, 177, 47);
   --bs-white_page: rgb(236, 236, 236);
   --bs-n2: rgb(39, 37, 31);
+  --bs-n3: rgb(68, 63, 52);
   --bs-primary-rgb: 13, 110, 253;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
@@ -512,6 +573,7 @@ footer .box:last-of-type .copyright p {
   --bs-green_page-rgb: 91, 177, 47;
   --bs-white_page-rgb: 236, 236, 236;
   --bs-n2-rgb: 39, 37, 31;
+  --bs-n3-rgb: 68, 63, 52;
   --bs-primary-text-emphasis: #052c65;
   --bs-secondary-text-emphasis: #2b2f32;
   --bs-success-text-emphasis: #0a3622;
@@ -3821,6 +3883,23 @@ textarea.form-control-lg {
   --bs-btn-disabled-border-color: rgb(39, 37, 31);
 }
 
+.btn-n3 {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: rgb(68, 63, 52);
+  --bs-btn-border-color: rgb(68, 63, 52);
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #3a362c;
+  --bs-btn-hover-border-color: #36322a;
+  --bs-btn-focus-shadow-rgb: 96, 92, 82;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #36322a;
+  --bs-btn-active-border-color: #332f27;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: rgb(68, 63, 52);
+  --bs-btn-disabled-border-color: rgb(68, 63, 52);
+}
+
 .btn-outline-primary {
   --bs-btn-color: #0d6efd;
   --bs-btn-border-color: #0d6efd;
@@ -4209,6 +4288,23 @@ textarea.form-control-lg {
   --bs-btn-disabled-color: rgb(39, 37, 31);
   --bs-btn-disabled-bg: transparent;
   --bs-btn-disabled-border-color: rgb(39, 37, 31);
+  --bs-gradient: none;
+}
+
+.btn-outline-n3 {
+  --bs-btn-color: rgb(68, 63, 52);
+  --bs-btn-border-color: rgb(68, 63, 52);
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: rgb(68, 63, 52);
+  --bs-btn-hover-border-color: rgb(68, 63, 52);
+  --bs-btn-focus-shadow-rgb: 68, 63, 52;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: rgb(68, 63, 52);
+  --bs-btn-active-border-color: rgb(68, 63, 52);
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: rgb(68, 63, 52);
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: rgb(68, 63, 52);
   --bs-gradient: none;
 }
 
@@ -5944,6 +6040,13 @@ textarea.form-control-lg {
   --bs-alert-link-color: var(--bs-n2-text-emphasis);
 }
 
+.alert-n3 {
+  --bs-alert-color: var(--bs-n3-text-emphasis);
+  --bs-alert-bg: var(--bs-n3-bg-subtle);
+  --bs-alert-border-color: var(--bs-n3-border-subtle);
+  --bs-alert-link-color: var(--bs-n3-text-emphasis);
+}
+
 @keyframes progress-bar-stripes {
   0% {
     background-position-x: 1rem;
@@ -6542,6 +6645,19 @@ textarea.form-control-lg {
   --bs-list-group-active-color: var(--bs-n2-bg-subtle);
   --bs-list-group-active-bg: var(--bs-n2-text-emphasis);
   --bs-list-group-active-border-color: var(--bs-n2-text-emphasis);
+}
+
+.list-group-item-n3 {
+  --bs-list-group-color: var(--bs-n3-text-emphasis);
+  --bs-list-group-bg: var(--bs-n3-bg-subtle);
+  --bs-list-group-border-color: var(--bs-n3-border-subtle);
+  --bs-list-group-action-hover-color: var(--bs-emphasis-color);
+  --bs-list-group-action-hover-bg: var(--bs-n3-border-subtle);
+  --bs-list-group-action-active-color: var(--bs-emphasis-color);
+  --bs-list-group-action-active-bg: var(--bs-n3-border-subtle);
+  --bs-list-group-active-color: var(--bs-n3-bg-subtle);
+  --bs-list-group-active-bg: var(--bs-n3-text-emphasis);
+  --bs-list-group-active-border-color: var(--bs-n3-text-emphasis);
 }
 
 .btn-close {
@@ -8149,6 +8265,11 @@ textarea.form-control-lg {
   background-color: RGBA(var(--bs-n2-rgb), var(--bs-bg-opacity, 1)) !important;
 }
 
+.text-bg-n3 {
+  color: #fff !important;
+  background-color: RGBA(var(--bs-n3-rgb), var(--bs-bg-opacity, 1)) !important;
+}
+
 .link-primary {
   color: RGBA(var(--bs-primary-rgb), var(--bs-link-opacity, 1)) !important;
   text-decoration-color: RGBA(var(--bs-primary-rgb), var(--bs-link-underline-opacity, 1)) !important;
@@ -8354,6 +8475,15 @@ textarea.form-control-lg {
 .link-n2:hover, .link-n2:focus {
   color: RGBA(31, 30, 25, var(--bs-link-opacity, 1)) !important;
   text-decoration-color: RGBA(31, 30, 25, var(--bs-link-underline-opacity, 1)) !important;
+}
+
+.link-n3 {
+  color: RGBA(var(--bs-n3-rgb), var(--bs-link-opacity, 1)) !important;
+  text-decoration-color: RGBA(var(--bs-n3-rgb), var(--bs-link-underline-opacity, 1)) !important;
+}
+.link-n3:hover, .link-n3:focus {
+  color: RGBA(54, 50, 42, var(--bs-link-opacity, 1)) !important;
+  text-decoration-color: RGBA(54, 50, 42, var(--bs-link-underline-opacity, 1)) !important;
 }
 
 .link-body-emphasis {
@@ -8847,6 +8977,10 @@ textarea.form-control-lg {
   --bs-focus-ring-color: rgba(var(--bs-n2-rgb), var(--bs-focus-ring-opacity));
 }
 
+.focus-ring-n3 {
+  --bs-focus-ring-color: rgba(var(--bs-n3-rgb), var(--bs-focus-ring-opacity));
+}
+
 .position-static {
   position: static !important;
 }
@@ -9080,6 +9214,11 @@ textarea.form-control-lg {
 .border-n2 {
   --bs-border-opacity: 1;
   border-color: rgba(var(--bs-n2-rgb), var(--bs-border-opacity)) !important;
+}
+
+.border-n3 {
+  --bs-border-opacity: 1;
+  border-color: rgba(var(--bs-n3-rgb), var(--bs-border-opacity)) !important;
 }
 
 .border-black {
@@ -10108,6 +10247,11 @@ textarea.form-control-lg {
   color: rgba(var(--bs-n2-rgb), var(--bs-text-opacity)) !important;
 }
 
+.text-n3 {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-n3-rgb), var(--bs-text-opacity)) !important;
+}
+
 .text-black {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-black-rgb), var(--bs-text-opacity)) !important;
@@ -10385,6 +10529,11 @@ textarea.form-control-lg {
   text-decoration-color: rgba(var(--bs-n2-rgb), var(--bs-link-underline-opacity)) !important;
 }
 
+.link-underline-n3 {
+  --bs-link-underline-opacity: 1;
+  text-decoration-color: rgba(var(--bs-n3-rgb), var(--bs-link-underline-opacity)) !important;
+}
+
 .link-underline {
   --bs-link-underline-opacity: 1;
   text-decoration-color: rgba(var(--bs-link-color-rgb), var(--bs-link-underline-opacity, 1)) !important;
@@ -10551,6 +10700,11 @@ textarea.form-control-lg {
 .bg-n2 {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-n2-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-n3 {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-n3-rgb), var(--bs-bg-opacity)) !important;
 }
 
 .bg-black {
